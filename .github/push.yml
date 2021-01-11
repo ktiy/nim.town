@@ -1,0 +1,19 @@
+name: Push
+
+on:
+  push:
+    branches:
+      - trunk
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: DNSControl push
+        uses: koenrh/dnscontrol-action@v3.4.2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        with:
+          args: push
