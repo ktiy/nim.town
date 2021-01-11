@@ -16,7 +16,7 @@ D("nim.town", REG_NONE, DnsProvider(CLOUDFLARE),
     CNAME("norm", "moigagoo.github.io."),
 
     // except keep these at the bottom
-    CF_REDIRECT("packages.nim.town", "https://nimble.directory"),
-    CF_REDIRECT("docs.nim.town", "https://nim-lang.org/documentation.html"),
-    CF_REDIRECT("doc.nim.town", "https://nim-lang.org/documentation.html")
+    CF_REDIRECT("packages.nim.town/*", "https://nimble.directory/$1"),
+    CF_REDIRECT("docs.nim.town/*", "https://nim-lang.org/documentation.html"),
+    CF_REDIRECT("doc.nim.town/*", "https://nim-lang.org/documentation.html")
 )
