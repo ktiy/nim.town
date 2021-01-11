@@ -11,7 +11,7 @@ to use, add a record to the dnscontrol.js file and create a pull request.
 
 a simple way to use this with static website (such as a github.io site) is as follows:
     - set-up a static website and add a CNAME file for the subdomain you want to use (foo.nim.town)
-    - add a CNAME record to the dnscontrol.js file (CNAME("foo", "bar.github.io."))
+    - add a CNAME record to the dnsconfig.js file (CNAME("foo", "bar.github.io."))
 it's as simple as that
 
 you can read https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain if you need more help.
