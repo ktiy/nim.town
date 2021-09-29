@@ -14,5 +14,6 @@ D("nim.town", REG_NONE, DnsProvider(CLOUDFLARE),
     CNAME("loco", "moigagoo.github.io."),
     CNAME("moigagoo", "moigagoo.github.io."),
     CNAME("norman", "moigagoo.github.io."),
-    CNAME("norm", "moigagoo.github.io.")
+    CNAME("norm", "moigagoo.github.io."),
+    CNAME("xidoc", "xigoi.github.io."),
 );
