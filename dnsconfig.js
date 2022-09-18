@@ -8,6 +8,7 @@ D("nim.town", REG_NONE, DnsProvider(CLOUDFLARE),
     A("@", "144.202.127.8"),
     AAAA("@", "2001:19f0:6001:3d76:5400:03ff:fe99:fa79"),
 
+    CNAME("baduybarbershop", "ourstorycomic.github.io/barber."),
     CNAME("deser", "gabbhack.github.io."),
     CNAME("gemi", "prunariu.space-nomad.com."),
     CNAME("hayago", "liquidev.github.io."),
