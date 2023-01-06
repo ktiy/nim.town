@@ -17,4 +17,5 @@ D("nim.town", REG_NONE, DnsProvider(CLOUDFLARE),
     CNAME("norm", "moigagoo.github.io."),
     CNAME("rwstudio", "ourstorycomic.github.io."),
     CNAME("xidoc", "pages.sr.ht.")
+    CNAME("zeusgang", "zeusgangproject.github.io.")
 );
