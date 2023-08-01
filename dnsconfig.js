@@ -11,11 +11,11 @@ D("nim.town", REG_NONE, DnsProvider(CLOUDFLARE),
     CNAME("deser", "gabbhack.github.io."),
     CNAME("gemi", "prunariu.space-nomad.com."),
     CNAME("hayago", "liquidev.github.io."),
+    CNAME("karkas", "moigagoo.github.io."),
     CNAME("loco", "moigagoo.github.io."),
     CNAME("moigagoo", "moigagoo.github.io."),
     CNAME("norman", "moigagoo.github.io."),
     CNAME("norm", "moigagoo.github.io."),
-    CNAME("karkas", "moigagoo.github.io."),
     CNAME("rwstudio", "ourstorycomic.github.io."),
     CNAME("xidoc", "pages.sr.ht.")
 );
