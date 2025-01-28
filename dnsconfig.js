@@ -17,6 +17,7 @@ D("nim.town", REG_NONE, DnsProvider(CLOUDFLARE),
     CNAME("rwstudio", "ourstorycomic.github.io."),
     CNAME("uing", "neroist.github.io."),
     CNAME("xidoc", "pages.sr.ht."),
+    CNAME("hika", "hika.github.io."),
 
     A("@", "185.199.108.153"),
     A("@", "185.199.109.153"),
